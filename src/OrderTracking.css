@@ -1,0 +1,52 @@
+/* src/OrderTracking.css */
+.order-tracking {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.order-timeline {
+  margin: 20px 0;
+}
+
+.timeline-event {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.event-date {
+  font-weight: bold;
+}
+
+.event-status {
+  margin-top: 5px;
+  font-size: 16px;
+  color: green;
+}
+
+.event-status.processing {
+  color: orange;
+}
+
+.event-status.shipped {
+  color: blue;
+}
+
+.event-description {
+  margin-top: 5px;
+  color: #555;
+}
+
+.order-summary {
+  margin-top: 20px;
+}
+
+.order-summary ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-summary li {
+  margin-bottom: 10px;
+}
